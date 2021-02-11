@@ -5,3 +5,4 @@ class Restoran():
         print("Restoraan " + str(self.restorani_nimi) + ", söögi tüüp " + str(self.soogi_tyyp))
     def ava_restoraan(self):
         print("Restoraan on avatud")
+    def
