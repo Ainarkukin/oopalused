@@ -1,16 +1,28 @@
-from Restoraan import Restoraan
-restoraan1 = Restoraan()
-restoraan1.restoraani_nimi = "Hesburger"
-restoraani.soogi_tyyp = "burgerid"
-restoraan1.restoraani_kirjeldus()
-restoraani.ava_restoraani()
+from Kasutajad import Kasutajad
+alice = Kasutajad()
+alice.eesnimi = "Alice"
+alice.perenimi = "Ime"
+alice.kasutaja_nimi = "Alice"
+alice.parool = "QWERTY"
+alice.kirjelda_kasutaja()
+print()
+alice.tervita_kasutaja()
 
-restoraan2 = Restoraan()
-restoraan2.restoraani_nimi = "MacDonalds"
-restoraani.soogi_tyyp = "friikartulid"
+kaspar = Kasutajad()
+kaspar.eesnimi = "Kaspar"
+kaspar.perenimi = "Ilus"
+kaspar.kasutaja_nimi = "Kaspar"
+kaspar.parool = "QWERTY"
+kaspar.kirjelda_kasutaja()
+print()
+kaspar.tervita_kasutaja()
 
-restoraan3 = Restoraan()
-restoraan3.restoraani_nimi = "Kartul"
-restoraani.soogi_tyyp = "kartulid"
-
+meelis = Kasutajad()
+meelis.eesnimi = "Meelis"
+meelis.perenimi = "Mesine"
+meelis.kasutaja_nimi = "Kaspar"
+meelis.parool = "QWERTY"
+meelis.kirjelda_kasutaja()
+print()
+meelis.tervita_kasutaja()
 
