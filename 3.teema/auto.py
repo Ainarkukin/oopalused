@@ -11,3 +11,12 @@ class Auto():
 
     def odomeeter(self):
         print("Antud auto sõitnud läbi " + str(self.odomeeteri_nait) + "km.")
+
+    def uuenda_odomeetr(self, km):
+        if km >= self.odomeeteri_nait = km
+        self.odomeeteri_nait = km
+        else:
+            print("Ei ole võimalik tagasi keerata odomeetri näit")
+
+    def suurenda_odomeeter(self, km):
+        self.odomeeteri_nait += km
