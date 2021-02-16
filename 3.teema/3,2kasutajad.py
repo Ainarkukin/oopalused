@@ -1,23 +1,5 @@
-from kasutajad import Kasutajad
-alice = Kasutajad("Alice", "Ime")
-alice.maara_kasutaja_nimi("Alice")
-alice.kirjelda_kasutaja()
-print()
-'''
-kaspar = Kasutajad()
-kaspar.eesnimi = "Kaspar"
-kaspar.perenimi = "Ilus"
-kaspar.kasutaja_nimi = "Kaspar"
-kaspar.parool = "QWERTY"
-kaspar.kirjelda_kasutaja()
-print()
+from  auto import Auto
 
-meelis = Kasutajad()
-meelis.eesnimi = "Meelis"
-meelis.perenimi = "Mesine"
-meelis.kasutaja_nimi = "Kaspar"
-meelis.parool = "QWERTY"
-meelis.kirjelda_kasutaja()
-print()
+ainari_uus_auto = Auto( "Audi", "A6" , 2017)
 
-'''
+print(ainari_uus_auto.kirjeldus())
