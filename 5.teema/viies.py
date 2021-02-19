@@ -5,10 +5,10 @@ class Ristkülik:
         self.symbol = str(symbol)
 
     def __str__(self):
-        ruut = []  # nimekiri symbolite kordamiseks
-        for i in range(self.height):  # ridade arv
-            ruut.append(self.symbol * self.width)  # symbol tuleb korrutada laiuse arvuga
-        ruut = '\n'.join(ruut)  # teisendame nimekirja stringiks
+        ruut = []
+        for i in range(self.height):
+            ruut.append(self.symbol * self.width)
+        ruut = '\n'.join(ruut)
         return ruut
 
     def __add__(self, x):
